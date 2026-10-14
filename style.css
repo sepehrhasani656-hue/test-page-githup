@@ -1,0 +1,57 @@
+body {
+    background-color: #483D8B;
+}
+@font-face {
+    font-family: shabnam;
+    src: url(font/fa-solid-900.woff2);
+}
+.header-web {
+    width: 1250px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    position: fixed;
+}
+.div-header-web {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.img-logo {
+    width: 60px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.li {
+    color: #1F0000;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: shabnam;
+}
+.ul-header {
+    display: flex;
+    justify-content: center;
+    gap: 50px
+    ;
+    margin-top: -45px;
+}
+a {
+    text-decoration: none;
+    list-style: none;
+}
+.button-header {
+    font-weight: bold;
+    color: gainsboro;
+    border: none;
+    background-color: #483D8B;
+    width: 120px;
+    height: 40px;
+    border-radius: 12px;
+    font-size: 15px;
+}
+.div-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -48px;
+    margin-left: 30px;
+}
